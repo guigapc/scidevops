@@ -1,0 +1,24 @@
+version: '3.8'
+
+#Criação da rede que vai ser utilizada entre os dois containers
+networks:
+  app-net:
+    driver: bridge
+
+services:
+  phpapp:
+    image: php:8.0-fpm
+    volumes:
+    - ./www:/var/www/html
+    ports:
+    - 9000:9000
+    networks:
+      - app-net
+  ola-mundo:
+    image: guigapc/olamundo:latest
+    volumes:
+    - ./www:/var/www/html
+    ports:
+      - 8080:80
+    networks:
+    - app-net
