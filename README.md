@@ -1,3 +1,4 @@
+
 NOTA
     Com a utilização do arquivo docker-compose não será mais necessário a utilização do diretorio phpapp que fica no repositório, o mesmo será mantido apenas para conferência de utilização sem a utilização do arquivo docker-compose
 
