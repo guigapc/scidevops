@@ -2,7 +2,7 @@ Criação dos containers locais
 Passo 1: Baixar os arquivos do repositorio mantendo as estruturas das pastas github.com/guigapc/scidevops
 
 NGINX
-    ####A imagem do nginx usar guigapc/olamundo:v1 pois ja foi buildada e enviada ao docker hub com o arquivo default.conf correto para funcionamento do php-fpm
+    ####Para o nginx será utilizada a imagem guigapc/olamundo:v1 pois ja foi buildada e enviada ao docker hub com o arquivo default.conf correto para funcionamento do php-fpm
     
     Este passo não precisa ser executado, apenas para ilustração de como foi feito
     Comando utilizado para build da imagem que ja foi enviada ao docker hub
