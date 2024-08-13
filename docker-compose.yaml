@@ -15,7 +15,7 @@ services:
     networks:
       - app-net
   ola-mundo:
-    image: guigapc/olamundo:latest
+    image: guigapc/olamundo:v1
     volumes:
     - ./www:/var/www/html
     ports:
