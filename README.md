@@ -9,6 +9,7 @@ NOTA
 
 
 Criação dos containers locais 
+
 Passo 1: Baixar os arquivos do repositorio mantendo as estruturas das pastas github.com/guigapc/scidevops
 
 NGINX
