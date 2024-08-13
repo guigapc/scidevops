@@ -1,3 +1,7 @@
+NOTA
+    Com a utilização do arquivo docker-compose não será mais necessário a utilização do diretorio phpapp que fica no repositório, o mesmo será mantido apenas para conferência de utilização sem a utilização do arquivo docker-compose
+
+
 Criação dos containers locais 
 Passo 1: Baixar os arquivos do repositorio mantendo as estruturas das pastas github.com/guigapc/scidevops
 
